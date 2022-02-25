@@ -1,0 +1,38 @@
+/*makes it so everything in on equal ground*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*adjusts the basic body of the webpage*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*changes everything that has the class to conform to these parameters*/
+.emoji{
+    font-size: 20rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.monkey{
+    display: none;
+}
+
+.ape{
+    display: none;
+}
+
+.man{
+    display: none;
+}
+
+.active{
+    display: block;
+}
